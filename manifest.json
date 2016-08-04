@@ -11,7 +11,7 @@
   },
     "content_scripts": [{
         "js": ["remove-recommendations.js"],
-        "matches": ["http://www.youtube.com/", "https://www.youtube.com/"]
+        "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"]
     }],
 
   "options_page": "options.html",
