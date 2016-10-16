@@ -1,0 +1,20 @@
+{
+  "name": "Block the youtube feed",
+  "description": "Remove the feeds from youtube and just leave the search bar",
+  "icons": {"128": "icon.png"},
+  "version": "1.1",
+  "permissions": [
+      "tabs", "http://*.youtube.com/*", "https://*.youtube.com/*"
+  ],
+  "browser_action": {
+      "default_title": "Removed the recommended videos sections",
+      "default_icon": "icon.png"
+  },
+    "content_scripts": [{
+        "run_at": "document_start",
+        "css": ["style/style.css"],
+        "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"]
+    }],
+
+  "manifest_version": 2
+}

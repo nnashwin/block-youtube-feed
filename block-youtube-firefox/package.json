@@ -1,0 +1,16 @@
+{
+  "title": "block-youtube-feed",
+  "name": "block-youtube-firefox",
+  "version": "0.0.1",
+  "description": "A firefox add-on to block the recommended videos on youtube",
+  "main": "index.js",
+  "author": "Tyler \"Big_O\" Boright",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
