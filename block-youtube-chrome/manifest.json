@@ -13,7 +13,8 @@
     "content_scripts": [{
         "run_at": "document_start",
         "css": ["style/style.css"],
-        "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"]
+        "exclude_matches": ["*://www.youtube.com/user/*", "*://www.youtube.com/channel/*"],
+        "matches": ["*://www.youtube.com/", "*://www.youtube.com/watch*"]
     }],
 
   "manifest_version": 2
