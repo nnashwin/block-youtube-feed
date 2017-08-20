@@ -10,10 +10,10 @@
     display: none;
 }
 
-.ytd-browse {
+#related {
 	display: none;
 }
 
-#related {
+#dismissable.ytd-shelf-renderer {
 	display: none;
 }
