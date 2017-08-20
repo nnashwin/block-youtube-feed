@@ -2,11 +2,18 @@
     display:none;
 }
 
-
 #branded-page-v2-secondary-col {
     display: none;
 }
 
 #watch7-sidebar-modules {
     display: none;
+}
+
+.ytd-browse {
+	display: none;
+}
+
+#related {
+	display: none;
 }
