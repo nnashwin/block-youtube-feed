@@ -17,3 +17,7 @@
 #dismissable.ytd-shelf-renderer {
 	display: none;
 }
+
+.videowall-endscreen {
+    display: none;
+}
