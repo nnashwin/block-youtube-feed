@@ -2,7 +2,7 @@
   "name": "Block the youtube feed",
   "description": "Remove the feeds from youtube and just leave the search bar",
   "icons": {"128": "icon.png"},
-  "version": "1.6",
+  "version": "1.6.2",
   "permissions": [
       "tabs", "http://*.youtube.com/*", "https://*.youtube.com/*"
   ],
@@ -12,7 +12,7 @@
   },
     "content_scripts": [{
         "css": ["style.css"],
-        "js": ["main.js"],
+        "js": [],
         "matches": ["*://www.youtube.com/", "*://www.youtube.com/watch*", "*://www.youtube.com/*", "*://www.youtube.com/user*"],
         "all_frames": true,
         "run_at": "document_start"
