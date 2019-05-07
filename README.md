@@ -1,2 +1,6 @@
-#block-youtube-feed
-## A chrome add-on to block the recommended videos on youtube
+# block-youtube-feed
+> Block recommended videos on youtube
+
+## License
+
+MIT © Tyler Boright
