@@ -1,5 +1,5 @@
-ytd-banner-promo-renderer {
-	display: none;
+.ytd-banner-promo-renderer {
+	display: none!important;
 }
 
 #star-survey {
