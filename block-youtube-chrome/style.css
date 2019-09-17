@@ -1,9 +1,13 @@
+#primary.ytd-two-column-browse-results-renderer {
+    display: none;
+}
+
 .ytd-banner-promo-renderer {
-	display: none!important;
+    display: none!important;
 }
 
 #star-survey {
-	display: none;
+    display: none;
 }
 
 #feed-main-what_to_watch {
@@ -19,11 +23,11 @@
 }
 
 #related {
-	display: none;
+    display: none;
 }
 
 #dismissable.ytd-shelf-renderer {
-	display: none;
+    display: none;
 }
 
 .videowall-endscreen {
