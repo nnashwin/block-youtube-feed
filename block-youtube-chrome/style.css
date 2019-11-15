@@ -1,4 +1,4 @@
-#primary.ytd-two-column-browse-results-renderer {
+ytd-two-column-browse-results-renderer[page-subtype="home"] {
     display: none;
 }
 
@@ -23,10 +23,6 @@
 }
 
 #related {
-    display: none;
-}
-
-#dismissable.ytd-shelf-renderer {
     display: none;
 }
 
